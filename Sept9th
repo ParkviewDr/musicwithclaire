@@ -1,0 +1,101 @@
+# musicwithclaire
+
+code for claire's website
+<?php
+
+/*
+	Template Name: Home Page
+*/
+
+get_header();
+?>
+
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+    
+    
+    <style>
+        .top{
+            font-size:50px;
+            color:red;
+        }
+.outer{
+  height:384px;
+  display: block;
+  position: relative;
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+  background: #4285F4;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+
+  color: white;
+  font-size:40px;
+  line-height: 300px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+
+.outer .inner {
+  opacity: .8;
+  transition: opacity .5s;
+}
+ .outer:hover .inner {
+     opacity:0;
+ }       
+        
+
+        
+    </style>
+
+<div class="row">
+  <div class="col-8">col-8</div>
+  <div class="col-4">col-4</div>
+</div>
+<div class="outer">
+    
+    <img src="http://mmitchellwebdesign.com/matt/music.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+     <p>Music with Claire</p>
+    <p><i class="fas fa-music fa-2x"></i></p>
+     
+ </div>
+</div>
+  
+
+
+<div class="top">
+    
+    
+<h1>Welcome to Music with Claire</h1>
+</div>
+<div class="row">
+  <div class="col-8">col-8</div>
+  <div class="col-4"><br><a href="https://lessons.com/piano-lessons" title="" target="_blank"><img src="//cdn.lessons.com/assets/images/tmp/lessons-2018.png" width="150" alt=""></a><br> </div>
+</div>
+
+<?php
+get_sidebar();
+get_footer();
