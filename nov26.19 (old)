@@ -1,0 +1,400 @@
+<?php
+
+/*
+	Template Name: Home Page
+*/
+
+get_header();
+?>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    
+    
+    <style>
+ .top{
+            padding-top:20px;
+            font-size:50px;
+            background:#387CEE;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            text-align:center;
+        }
+  
+ 
+        
+    .middle{
+          padding-top:20px;
+            font-size:50px;
+            background:#1D2A32;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            text-align:center;
+    }
+    
+    .bottom{
+        padding-top:20px;
+            font-size:50px;
+            background:#D6DEEB;
+            font-family: 'Lato', sans-serif;
+            color:black;
+            text-align:center;
+    }
+        .content {
+             font-size:20px;
+            background:#387CEE;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            
+        }
+        
+                .content-mid {
+             font-size:20px;
+            background:1D2A32;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            
+        }
+        
+        .content-bot{
+             font-size:20px;
+            background:#D6DEEB;
+            font-family: 'Lato', sans-serif;
+            color:black;
+            
+        }
+        
+        .service{
+            text-align:center;
+             font-size:40px;
+            background:white;
+            font-family: 'Lato', sans-serif;
+            color:#1D2A32;
+            letter-spacing:3px;
+        }
+        .moreinfo{
+            text-align:center;
+             font-size:20px;
+            background:#387CEE;
+            font-family: 'Lato', sans-serif;
+            color:white;
+           
+        }
+        
+.outer{
+    
+  height:380px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+  background: #EE4444;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+
+  color: white;
+  font-size:80px;
+  line-height: 300px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+
+.outer .inner {
+  opacity: .8;
+  transition: opacity .5s;
+}
+ .outer:hover .inner {
+     opacity:0;
+ }       
+ 
+ .reviews {
+   font-family: 'Mali', cursive;
+   font-size:20px;
+ }
+ 
+  .review-header {
+   font-family: 'Mali', cursive;
+   text-align:center;
+   font-size:30px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .outer .inner {
+        display:none;
+    }
+}
+
+.button {
+     font: bold 11px 'Mail', cursive;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 2px 2px 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin:0;
+}
+        
+
+        
+    </style>
+    
+    
+
+    
+    <div class="d-none d-lg-block">
+<div class="outer">
+    
+    <img src="https://musicwithclaire.com/music.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+     <p>Music with Claire Cavoto</p>
+</div>
+     </div>
+ </div>
+<div class="top">
+<div class="container">
+
+
+<div class="row">
+    
+    
+           <div class="col-md-6"> 
+         
+       <h1> <a href="https://musicwithclaire.com/contact/">Click here to contact Claire Cavoto for lesson rates!</a> </h1>
+      <img src="https://musicwithclaire.com/claire.jpg" class="img-fluid" alt="Responsive image">
+
+  
+
+    </div>
+    <div class="col-md-6">
+        <h1>About Claire Cavoto</h1>
+        <i class="far fa-address-card"></i>
+        <p class= "content">
+In addition to teaching piano, I am also a music therapist and accept special needs students on piano as well as for therapeutic intervention. I have a Bachelor of Music from Temple University and a Master's in Creative Arts therapy from Hahnemann (Drexel University). I accept clients from birth to 100 for therapy and from age 5 to 100 for piano lessons featuring the Simply Music learning method.</p>
+<img src="https://musicwithclaire.com/piano.jpg" class="img-fluid" alt="Responsive image">
+
+    </div><!--col-->
+    
+ 
+</div><!--row-->
+    </div><!--top-->
+</div><!--container-->
+
+
+    <div class="top">
+<div class="container">
+        <h1>Musical Education Background</h1>
+       <i class="fas fa-user-graduate"></i>
+        <p class= "content">BA in Music History-Temple University, piano concentration
+MA-Music Therapy, Hahnemann Univeristy, Phila. PA
+
+Accredited Simply Music Teacher - simplymusic.com
+
+Taubman Seminar at Temple University's Taubman Institute-certificate levels 1-6 May 2008 - Jun 2013
+Attendance at the Taubman Seminar Levels 1 to 6 at Temple University's intensive seminars on the principles of "The Taubman Approach" under the guidance of Dorothy Taubman, Visiting Professor of Piano at Temple University, and celebrated innovator of revolutionary concepts and principles in the art of piano playing.
+
+2013 to present-private piano study (post graduate) with Maria Botelho Hubler, Taubman Seminar Associate Faculty
+</p>
+
+  <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Learn More About Claire Cavoto
+  </a>
+
+
+    </div><!--col-->
+    </div><!--row-->
+    </div><!--top-->
+</div><!--container-->
+
+    
+    
+
+  <div class="moreinfo">
+     
+  <div class="collapse" id="collapseExample">
+      <div class="container"> </br></br>
+  
+      <h2><u>How does your service stand out?</u></h2>
+
+<p>In addition to teaching piano, I am also a music therapist and accept special needs students on piano as well as for therapeutic intervention. I have a Bachelor of Music from Temple University and a Master's in Creative Arts therapy from Hahnemann (Drexel University). I accept clients from birth to 100 for therapy and from age 5 to 100 for piano lessons featuring the Simply Music learning method.</p>
+
+<h2><u>What do you enjoy about the work you do?</u></h1>
+
+<p>I work with children as well as adults doing piano instruction as well as students of all ages with special needs doing piano instruction and/or music therapy.  I enjoy the diversity and challenge of working with various ages.</p>
+
+<h2><u>What is your typical process for working with a new student?</u></h2>
+
+<p>We would discuss the student's musical background and interests in order to develop a personalized lesson plan.  I will discuss with parents their roll in encouraging the music development of their child.</p>
+
+<h2><u>What types of students have you worked with?</u></h2>
+
+<p>I have worked with all ages and abilities from young children, teens and adults with special needs to children, teens and adults who don't have any disability.  Each student is unique and I taylor the lessons to needs and interests.</p>
+   </br></br>
+          </div>
+</div>
+
+
+   </div>
+
+    
+ 
+
+  
+  
+  <div class="service">
+<div class="container">
+
+
+<div class="row">
+    <div class="col-md-4">
+           <i class="fas fa-music"></i>
+<h2>Servicing West Norriton, East Norriton, Eagleville, Audubon and the 19403!</h2>
+</div></br></br>
+<div class="col-md-4">
+    <i class="fas fa-music"></i>
+        <h2>References and Background Check available </h2></br>
+   </div></br></br>
+   <div class="col-md-4">
+       <i class="fas fa-music"></i>
+<h2>Ages and Skill Levels Taught: Ages 5 thru 105! Beginner and Intermediate</h2></br> </div>
+
+
+    </div><!--col-->
+    </br>
+     </div><!--col-->
+    </div><!--row-->
+    </div><!--top-->
+    
+   
+    
+</div><!--container-->
+ 
+       <div class="d-block d-sm-none d-md-none">
+        <img src="https://musicwithclaire.com/mobilepiano.jpg" class="img-fluid" alt="Responsive image">
+</div>
+    
+  
+  
+  
+<div class="middle">
+<div class="container">
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h1>My Musical Influences</h1>
+        <i class="fas fa-music"></i>
+        <p class= "content-mid">
+I have been greatly influenced by Dorothy Taubman's work on the pedagogy and technique of piano playing which helps develop the healthy and coordinated movements that enable a pianist to play with ease and without injury. I have been studying her approach for several years and have taken intensive seminars earning me certificates on levels one to six. I continue to study the approach privately with Maria Botelho Hubler. My teaching incorporates what I have learned to help my students develop effortless technique in their piano playing.</p>
+
+
+    </div><!--col-->
+    
+
+     <div class="col-md-6">
+        <h1>Genres and Subjects Taught</h1>
+        <i class="fas fa-chalkboard-teacher"></i>
+        <p class= "content-mid">
+            SIMPLY MUSIC is a revolutionary Australian - developed piano and keyboard method that offers a breakthrough in music education. This unique approach has students of all ages playing great sounding contemporary, gospel, classical, blues and accompaniment pieces immediately from their very first lessons. For more information about the method visit simplymusic.com
+</p>
+
+
+    </div><!--col-->
+    
+
+    </div><!--row-->
+    </div><!--top-->
+</div><!--container-->
+<div class="review-header">
+<h1>Reviews</h1>
+
+
+<a class="btn btn-primary" href="https://musicwithclaire.com/contact/"" role="button">Send Claire a review</a>
+</div>
+<div class="reviews">
+    
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p><i class="fas fa-user"></i> Maria B</p><p>Cherry Hill, NJ</p><p>Claire is a very competent teacher and musician. She is a qualified piano teacher and music therapist. She is a knowledgeable piano teacher working in the great Philadelphia area for many years. Ms. Cavoto is always looking for ways to improve her teaching and playing. I highly recommend Claire. Maria B. Hubler Taubman Seminar Faculty</p>
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p><i class="fas fa-user"></i> Camille D</p><p>Norristown, PA</p><p>I am extremely excited about being able to play so many pieces in a very short time with both hands. I've surpassed my wildest dreams. Claire always brings something extra to the sessions and its very intriguing and rewarding to be able to add twists to pieces.</p>
+    </div>
+      <div class="col-md-6"> 
+       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p><i class="fas fa-user"></i> Michael M.</p><p>Norristown, PA</p>
+<p>Very impressed so far! Claire comes up with great techniques to help me overcome any issue, she's patient, very nice.</p></br>
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p><i class="fas fa-user"></i> Debbie R.</p><p>Norristown, PA</p>
+<p>My son is autistic and although he's had piano teachers in the past, only Claire has had the insight and creativity to reach him. I never dreamed he'd be able to play with both hands much less have an actual repertoire of songs! Although he has problems with coordination and sustained focus, he is playing beautifully and is so proud. Thank you to Claire and to Simply Music! </p>
+</div>
+
+    </div><!--row-->
+    </div><!--container-->
+    </div><!--reviews-->
+
+<!--coded out for now 
+
+<div class="bottom">
+<div class="container">
+
+
+<div class="row">
+  
+      
+     <br> <img src="https://musicwithclaire.com/musicnote.jpg" class="img-fluid" alt="Responsive image">
+          
+</div>
+    
+</br></br>
+
+
+    </div><!--row-->
+    <!--
+    </div><!--container-->
+    <!--
+    </div><!--bottom-->
+    
+    
+    
+</div>
+
+
+
+  
+  
+</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<?php
+
+get_footer();
